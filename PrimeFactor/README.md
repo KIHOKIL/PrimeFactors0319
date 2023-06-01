@@ -1,0 +1,3 @@
+## PrimeFactor
+---
+PRIME FACTOR KATA
