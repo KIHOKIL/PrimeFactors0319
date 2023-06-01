@@ -12,12 +12,18 @@ public:
 
 TEST_F(PrimeFixture, Of1) {
 	PrimeFactor prime_factor;
-	vector<int> expected = {};
+	expected = {};
 	EXPECT_EQ(expected, prime_factor.of(1));
 }
 
 TEST_F(PrimeFixture, Of2) {
 	PrimeFactor prime_factor;
-	vector<int> expected = {2};
+	expected = {2};
 	EXPECT_EQ(expected, prime_factor.of(2));
+}
+
+TEST_F(PrimeFixture, Of3) {
+	PrimeFactor prime_factor;
+	expected = {3};
+	EXPECT_EQ(expected, prime_factor.of(3));
 }
